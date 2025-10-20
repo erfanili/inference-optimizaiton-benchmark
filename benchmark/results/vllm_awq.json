@@ -1,0 +1,111 @@
+[
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 1,
+    "latency_s": 10.856221914291382,
+    "total_tokens": 122,
+    "throughput_tok_per_s": 11.237795336460135,
+    "peak_mem_GB": 22.07
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 4,
+    "latency_s": 10.885823249816895,
+    "total_tokens": 409,
+    "throughput_tok_per_s": 37.57180239049716,
+    "peak_mem_GB": 22.07
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 8,
+    "latency_s": 11.098201751708984,
+    "total_tokens": 703,
+    "throughput_tok_per_s": 63.34359527134626,
+    "peak_mem_GB": 22.07
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 16,
+    "latency_s": 11.3045494556427,
+    "total_tokens": 1366,
+    "throughput_tok_per_s": 120.83630624643399,
+    "peak_mem_GB": 22.13
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 32,
+    "latency_s": 11.882217407226562,
+    "total_tokens": 3211,
+    "throughput_tok_per_s": 270.23575566351144,
+    "peak_mem_GB": 22.13
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 64,
+    "latency_s": 12.734899282455444,
+    "total_tokens": 6022,
+    "throughput_tok_per_s": 472.8737830142371,
+    "peak_mem_GB": 22.46
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 128,
+    "latency_s": 15.740994453430176,
+    "total_tokens": 11369,
+    "throughput_tok_per_s": 722.2542409016949,
+    "peak_mem_GB": 22.07
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 256,
+    "latency_s": 22.01857328414917,
+    "total_tokens": 21747,
+    "throughput_tok_per_s": 987.6661725242357,
+    "peak_mem_GB": 22.4
+  }
+][
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 512,
+    "latency_s": 46.11572289466858,
+    "total_tokens": 47840,
+    "throughput_tok_per_s": 1037.3902217529971,
+    "peak_mem_GB": 22.69
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 1024,
+    "latency_s": 94.10381197929382,
+    "total_tokens": 100778,
+    "throughput_tok_per_s": 1070.9236733382781,
+    "peak_mem_GB": 23.03
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 2048,
+    "latency_s": 174.38834810256958,
+    "total_tokens": 199517,
+    "throughput_tok_per_s": 1144.0959339935405,
+    "peak_mem_GB": 23.03
+  },
+  {
+    "engine": "vllm",
+    "config": "awq",
+    "batch_size": 4094,
+    "latency_s": 342.12063121795654,
+    "total_tokens": 399462,
+    "throughput_tok_per_s": 1167.6057026374206,
+    "peak_mem_GB": 23.03
+  }
+]

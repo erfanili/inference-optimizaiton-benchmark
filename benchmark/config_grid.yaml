@@ -1,0 +1,5 @@
+engines:
+  - transformers
+  - vllm
+batch_sizes: [32,64,128,256,512]
+max_new_tokens: 100
